@@ -1,9 +1,10 @@
 1. Analisis:
-* Pendekatan yang digunakan cukup sederhana dan mudah untuk dipahami.
-* Memanfaatkan konsep pewarisan (inheritance) untuk membagi perilaku antara kelas induk dan kelas-kelas turunannya.
-* Setiap jenis bebek memiliki perilaku bersuara dan terbang yang sama seperti bebek lainnya.
+* Penggunaan interface untuk mendefinisikan perilaku bersuara dan terbang membuat kode menjadi lebih modular. 
+* Penerapan polimorfisme dengan menggunakan interface memungkinkan adanya berbagai implementasi yang berbeda untuk perilaku bersuara dan terbang.
+* Kelas-kelas turunan dapat mengimplementasikan lebih dari satu perilaku bersuara atau terbang jika diperlukan.
 
-2. Kelemahan:
-* Jika terjadi perubahan pada perilaku bersuara atau terbang, perubahan tersebut harus diterapkan di semua kelas turunan, yang dapat menyulitkan dan membutuhkan modifikasi pada banyak bagian kode.
-* Tidak ada fleksibilitas untuk mengubah perilaku bersuara atau terbang secara dinamis pada saat program dijalankan (runtime).
-* Dengan kata lain, meskipun pendekatan ini sederhana, namun ketika terjadi perubahan pada perilaku tertentu, akan membutuhkan usaha yang besar karena perubahan harus dilakukan di banyak tempat dalam kode. Selain itu, perilaku tidak dapat diubah secara dinamis saat program berjalan, yang mengurangi fleksibilitas desain.
+Kelemahan:
+* Masih terbatas dalam hal fleksibilitas ketika ingin mengubah perilaku bersuara atau terbang secara dinamis pada saat program dijalankan (runtime).
+* Jika terjadi perubahan pada perilaku bersuara atau terbang, perubahan tersebut tetap harus diterapkan pada semua kelas turunan yang terkait.
+
+Dengan kata lain, penggunaan interface dan polimorfisme membuat kode lebih modular dan memungkinkan adanya implementasi perilaku yang berbeda-beda. Namun, masih terdapat keterbatasan dalam mengubah perilaku secara dinamis saat runtime, dan perubahan pada perilaku tetap harus dilakukan di semua kelas turunan yang terkait.

@@ -1,24 +1,16 @@
 public class Main {
-    public static void main(String[] args) {
-        MallardDuck mallard = new MallardDuck();
-        mallard.quack();
-        mallard.swim();
-        mallard.display();
-        mallard.fly();
+    public static void main(String[] args){
+        MallardDuck mallardDuck = new MallardDuck();
+        mallardDuck.display();
+        mallardDuck.swim();
+        mallardDuck.quack();
+        mallardDuck.fly();
 
         System.out.println();
 
-        RubberDuck rubber = new RubberDuck();
-        rubber.quack();
-        rubber.swim();
-        rubber.display();
-        rubber.fly();
-
-        System.out.println();
-        WoodenDuck wood = new WoodenDuck();
-        wood.quack();
-        wood.swim();
-        wood.display();
-        wood.fly();
+        ToyDuck toyDuck = new ToyDuck();
+        toyDuck.display();
+        toyDuck.swim();
+        toyDuck.fly();
     }
 }

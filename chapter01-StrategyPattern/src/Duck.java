@@ -1,68 +1,80 @@
+interface Quackable {
+    void quack();
+}
+
+interface Flyable {
+    void fly();
+}
+
 abstract class Duck {
-    void quack() {
-        System.out.println("Kwek Kwek");
-    }
-
-    void swim() {
-        System.out.println("Berenang di air");
-    }
-
     abstract void display();
 
-    void fly() {
-        System.out.println("Terbang di udara");
+    void swim() {
+        System.out.println("Berenang");
     }
 }
 
-class MallardDuck extends Duck {
+class MallardDuck extends Duck implements Quackable, Flyable {
+    @Override
+    public void quack() {
+        System.out.println("Quack Quack");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Terbang tinggi di langit biru");
+    }
+
     @Override
     void display() {
-        System.out.println("Penampilan Bebek Mallard: Tubuhnya besar dengan warna bulu hijau kebiruan, paruh kuning, dan ekor melengkung.");
+        System.out.println("Bebek Mallard memiliki tubuh besar dengan bulu berwarna hijau kebiruan dan sayap lebar.");
     }
 }
 
-class RedHeadDuck extends Duck {
+class RedheadDuck extends Duck implements Quackable, Flyable {
+    @Override
+    public void quack() {
+        System.out.println("Quack Quack");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Terbang di angkasa dengan gagahnya");
+    }
+
     @Override
     void display() {
-        System.out.println("Penampilan Bebek Kepala Merah: Tubuhnya agak besar dengan kepala berwarna merah cerah, bulu lainnya berwarna cokelat.");
+        System.out.println("Bebek Kepala Merah memiliki kepala berwarna merah cerah yang mencolok dan bulu berwarna cokelat.");
     }
 }
 
-class RubberDuck extends Duck {
+class RubberDuck extends Duck implements Quackable {
+    @Override
+    public void quack() {
+        System.out.println("Squeak Squeak");
+    }
+
     @Override
     void display() {
-        System.out.println("Penampilan Bebek Karet: Terbuat dari bahan karet, berwarna kuning cerah, dan memiliki bentuk yang bulat.");
-    }
-
-    @Override
-    void quack() {
-        System.out.println("Bunyi seperti desis, bukan kwek");
-    }
-
-    @Override
-    void fly() {
-        // Tidak ada implementasi, bebek karet tidak dapat terbang
+        System.out.println("Bebek Karet berwarna kuning cerah dengan bentuk yang elastis dan fleksibel.");
     }
 }
 
 class WoodenDuck extends Duck {
     @Override
     void display() {
-        System.out.println("Penampilan Bebek Kayu: Terbuat dari kayu dengan warna cokelat tua, memiliki tampilan yang sederhana dengan detail yang terbatas.");
+        System.out.println("Bebek Kayu terbuat dari kayu dengan tampilan yang sederhana dan alami.");
+    }
+}
+
+class ToyDuck extends Duck implements Flyable {
+    @Override
+    public void fly() {
+        System.out.println("Terbang dengan gaya mainan");
     }
 
     @Override
-    void quack() {
-        // Tidak ada implementasi, bebek kayu tidak dapat bersuara
-    }
-
-    @Override
-    void swim() {
-        System.out.println("Mengapung di air");
-    }
-
-    @Override
-    void fly() {
-        // Tidak ada implementasi, bebek kayu tidak dapat terbang
+    void display() {
+        System.out.println("Bebek Mainan memiliki penampilan yang ceria dan warna-warni.");
     }
 }
