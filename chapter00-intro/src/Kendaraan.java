@@ -1,33 +1,30 @@
-abstract class Employee {
-    abstract void printInfo();
+public interface Kendaraan {
+    void speedUp();
+    void applyBrakes();
+}
 
-    void companyInfo(){
-        System.out.println("Employee of PT.Suka Suka");
+class SepedaMotor implements Kendaraan {
+
+    @Override
+    public void speedUp() {
+        System.out.println("berjalan dengan mesin");
+    }
+
+    @Override
+    public void applyBrakes() {
+        System.out.println("berhenti dengan mematikan mesin");
     }
 }
 
-class NewEmployee extends Employee {
-    @Override
-    void printInfo() {
-        String name = "Andy";
-        int age = 21;
-        float salary = 200.2F;
+class Sepeda implements Kendaraan {
 
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(salary);
+    @Override
+    public void speedUp() {
+        System.out.println("berjalan dengan dikayuh");
     }
-}
 
-class OldEmployee extends Employee {
     @Override
-    void printInfo() {
-        String name = "Anisa";
-        int age = 41;
-        float salary = 500.2F;
-
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(salary);
+    public void applyBrakes() {
+        System.out.println("berhenti dengan menekan rem");
     }
 }
