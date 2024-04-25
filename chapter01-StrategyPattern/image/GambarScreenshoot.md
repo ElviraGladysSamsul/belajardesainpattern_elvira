@@ -6,3 +6,6 @@
 
 //SS Output Tahap 3: Menggunakan Strategy Pattern
 ![Tahap3MenggunakanStrategyPattern](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/assets/146049473/c4c11b0a-1963-479a-ad05-661692872395)
+
+//SS Output Tugas Shipping Strategy
+![TugasShippingStrategy](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/assets/146049473/01302620-1f01-4e82-b133-91975b866627)
