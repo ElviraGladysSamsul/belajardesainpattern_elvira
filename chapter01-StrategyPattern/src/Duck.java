@@ -1,80 +1,130 @@
-interface Quackable {
+interface QuackBehavior {
     void quack();
 }
 
-interface Flyable {
+interface FlyBehavior {
     void fly();
 }
 
+class Quack implements QuackBehavior {
+    public void quack() {
+        System.out.println("Qwek - Qwek");
+    }
+}
+
+class Squeak implements QuackBehavior {
+    public void quack() {
+        System.out.println("Squeak");
+    }
+}
+
+class MuteQuack implements QuackBehavior {
+    public void quack() {
+        System.out.println("Senyap - Tidak Bisa Bersuara");
+    }
+}
+
+
+class FlyWithWings implements FlyBehavior {
+    public void fly() {
+        System.out.println("Terbang dengan sayap");
+    }
+}
+
+class FlyNoWay implements FlyBehavior {
+    public void fly() {
+        System.out.println("Tidak bisa terbang");
+    }
+}
+
+class FlyWithRocketPower implements FlyBehavior {
+
+    @Override
+    public void fly() {
+        System.out.println("Terbang dengan tenaga roket");
+    }
+}
+
 abstract class Duck {
+    QuackBehavior quackBehavior;
+    FlyBehavior flyBehavior;
+
     abstract void display();
 
     void swim() {
         System.out.println("Berenang");
     }
-}
 
-class MallardDuck extends Duck implements Quackable, Flyable {
-    @Override
-    public void quack() {
-        System.out.println("Quack Quack");
+    void performQuack() {
+        quackBehavior.quack();
     }
 
-    @Override
-    public void fly() {
-        System.out.println("Terbang tinggi di langit biru");
+    void performFly() {
+        flyBehavior.fly();
+    }
+
+    void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+    void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
+    }
+}
+
+class MallardDuck extends Duck {
+    public MallardDuck() {
+        quackBehavior = new Quack();
+        flyBehavior = new FlyWithWings();
     }
 
     @Override
     void display() {
-        System.out.println("Bebek Mallard memiliki tubuh besar dengan bulu berwarna hijau kebiruan dan sayap lebar.");
+        System.out.println("Bebek Mallard, memiliki bulu hijau dan berkilauan.");
     }
 }
 
-class RedheadDuck extends Duck implements Quackable, Flyable {
-    @Override
-    public void quack() {
-        System.out.println("Quack Quack");
-    }
-
-    @Override
-    public void fly() {
-        System.out.println("Terbang di angkasa dengan gagahnya");
+class RedheadDuck extends Duck {
+    public RedheadDuck() {
+        quackBehavior = new Quack();
+        flyBehavior = new FlyWithWings();
     }
 
     @Override
     void display() {
-        System.out.println("Bebek Kepala Merah memiliki kepala berwarna merah cerah yang mencolok dan bulu berwarna cokelat.");
+        System.out.println("Bebek Merah, memiliki bulu merah cerah dan mata coklat.");
     }
 }
 
-class RubberDuck extends Duck implements Quackable {
-    @Override
-    public void quack() {
-        System.out.println("Squeak Squeak");
+class RubberDuck extends Duck {
+    public RubberDuck() {
+        quackBehavior = new Squeak();
+        flyBehavior = new FlyNoWay();
     }
 
-    @Override
-    void display() {
-        System.out.println("Bebek Karet berwarna kuning cerah dengan bentuk yang elastis dan fleksibel.");
+    void display () {
+        System.out.println("Bebek Karet, berwarna kuning dan dapat mengapung di air.");
     }
 }
 
 class WoodenDuck extends Duck {
-    @Override
-    void display() {
-        System.out.println("Bebek Kayu terbuat dari kayu dengan tampilan yang sederhana dan alami.");
+    public WoodenDuck() {
+        quackBehavior = new Quack();
+        flyBehavior = new FlyNoWay();
+    }
+
+    void display () {
+        System.out.println("Bebek Kayu, terbuat dari kayu dengan warna coklat alami.");
     }
 }
 
-class ToyDuck extends Duck implements Flyable {
-    @Override
-    public void fly() {
-        System.out.println("Terbang dengan gaya mainan");
+class ModelDuck extends Duck {
+    ModelDuck(){
+        flyBehavior = new FlyNoWay();
+        quackBehavior = new Quack();
     }
 
     @Override
     void display() {
-        System.out.println("Bebek Mainan memiliki penampilan yang ceria dan warna-warni.");
+        System.out.println("Bebek Model, merupakan replika bebek dengan berbagai desain unik.");
     }
 }

@@ -1,10 +1,10 @@
 1. Analisis:
-* Penggunaan interface untuk mendefinisikan perilaku bersuara dan terbang membuat kode menjadi lebih modular. 
-* Penerapan polimorfisme dengan menggunakan interface memungkinkan adanya berbagai implementasi yang berbeda untuk perilaku bersuara dan terbang.
-* Kelas-kelas turunan dapat mengimplementasikan lebih dari satu perilaku bersuara atau terbang jika diperlukan.
+* Penerapan Strategy Pattern memungkinkan pemisahan perilaku bersuara dan terbang menjadi objek-objek terpisah. 
+* Memberikan fleksibilitas tinggi dalam mengubah perilaku bersuara atau terbang dengan mudah pada saat program dijalankan (runtime).
+* Memungkinkan penggunaan berbagai macam perilaku bersuara dan terbang tanpa harus mengubah kelas bebek itu sendiri.
 
-Kelemahan:
-* Masih terbatas dalam hal fleksibilitas ketika ingin mengubah perilaku bersuara atau terbang secara dinamis pada saat program dijalankan (runtime).
-* Jika terjadi perubahan pada perilaku bersuara atau terbang, perubahan tersebut tetap harus diterapkan pada semua kelas turunan yang terkait.
+2. Kekurangan:
+* Menambahkan kompleksitas tambahan ke dalam kode karena memerlukan lebih banyak kelas dan objek untuk mengelola strategi-strategi perilaku yang berbeda.
+* Dapat menjadi terlalu abstrak untuk aplikasi sederhana, sehingga dapat menyulitkan pemahaman bagi pengembang yang kurang berpengalaman.
 
-Dengan kata lain, penggunaan interface dan polimorfisme membuat kode lebih modular dan memungkinkan adanya implementasi perilaku yang berbeda-beda. Namun, masih terdapat keterbatasan dalam mengubah perilaku secara dinamis saat runtime, dan perubahan pada perilaku tetap harus dilakukan di semua kelas turunan yang terkait.
+Dengan kata lain, Strategy Pattern memberikan fleksibilitas tinggi dalam mengelola dan mengubah perilaku secara dinamis pada saat runtime, serta memungkinkan penambahan perilaku baru tanpa perlu mengubah kelas utama. Namun, penerapannya menambah kompleksitas kode dan dapat menjadi terlalu abstrak untuk aplikasi sederhana, terutama bagi pengembang yang kurang berpengalaman.

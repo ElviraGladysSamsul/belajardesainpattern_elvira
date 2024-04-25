@@ -3,3 +3,6 @@
 
 //SS Output Tahap 2: Menggunakan Interface
 ![Tahap2MenggunakanInterface png](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/assets/146049473/c9419032-72af-4b43-89f0-a465920c2eec)
+
+//SS Output Tahap 3: Menggunakan Strategy Pattern
+![Tahap3MenggunakanStrategyPattern](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/assets/146049473/c4c11b0a-1963-479a-ad05-661692872395)
