@@ -1,0 +1,16 @@
+Analisa Channel:
+* Interface Observer memiliki satu metode, `receiveNotification`, yang harus diimplementasikan oleh kelas-kelas yang bertindak sebagai pengamat. 
+* Interface Observable memiliki tiga metode: `addSubscriber`, `removeSubscriber`, dan `notifyUser`. Metode `addSubscriber` dan `removeSubscriber` digunakan untuk mengelola daftar pengamat yang telah berlangganan, sedangkan `notifyUser` digunakan untuk memberi tahu pengamat tentang perubahan yang terjadi. 
+* kelas `User` diimplementasikan dengan mengimplementasikan interface Observer. Kelas ini memiliki satu metode yang diperlukan oleh interface Observer, yaitu `receiveNotification`, yang akan menampilkan pesan notifikasi kepada pengguna. Kelas `User` juga memiliki metode `subscribe` dan `unsubscribe` yang memungkinkan pengguna untuk berlangganan dan berhenti berlangganan dari saluran tertentu. 
+* kelas `Channel` diimplementasikan dengan mengimplementasikan interface Observable. Kelas ini menyimpan daftar pengamat (objek `User`) yang berlangganan ke saluran, dan ketika ada notifikasi baru, metode `notifyUser` akan dipanggil untuk memberi tahu semua pengamat tentang perubahan yang terjadi. Metode `notifyUser` mengonstruksi pesan notifikasi dan meneruskannya kepada setiap pengamat yang terdaftar. 
+* Dalam kelas `Main`, Sebuah saluran (`Channel`) dibuat, beberapa pengguna (`User`) ditambahkan sebagai pengamat, dan notifikasi dikirim kepada pengguna yang telah berlangganan saluran tersebut. Demonstrasi ini menggambarkan bagaimana pola Observer digunakan untuk mengelola hubungan antara objek yang diamati dan pengamat, memungkinkan notifikasi yang efisien dan terstruktur tentang perubahan yang terjadi dalam sistem.
+
+
+Tugas Ordering (Pemesanan Barang):
+Use Case Permasalahan:
+Kita akan membuat flow pemesanan barang, setelah pesanan terbuat maka akan memperbarui stok produk dan lanjut membuat invoice.
+
+Analisa:
+Pola desain Observer ini digunakan untuk membangun hubungan one-to-many antara objek yang disebut "publisher" dan objek yang disebut "subscribers". Class `OrderCreationPublisher` bertindak sebagai subjek yang mengelola daftar subscriber dan mengirimkan notifikasi kepada mereka saat ada perubahan status, dalam hal ini, pembuatan pesanan. Publisher memiliki metode `addSubscriber` dan `removeSubscriber` untuk menambahkan dan menghapus subscriber dari daftar yang dimilikinya.
+
+Interface `Subscriber` diterapkan oleh Class `StockUpdater` dan `InvoiceCreation`, yang masing-masing memiliki metode `consume` untuk menangani notifikasi yang diterima dari publisher. Ketika sebuah pesanan dibuat melalui Class `OrderCreation`, data pesanan disiapkan dan kemudian diteruskan ke publisher untuk didistribusikan kepada semua subscriber yang terdaftar. Ini memungkinkan setiap subscriber untuk mengambil tindakan yang sesuai sesuai dengan perubahan status yang terjadi. Di sini, `StockUpdater` mencatat pembaruan stok produk yang terjadi, sedangkan `InvoiceCreation` membuat faktur untuk pesanan yang dibuat. Dengan demikian, struktur ini memisahkan logika bisnis terkait pesanan dari tindakan yang diambil sebagai tanggapan terhadap perubahan dalam sistem.
