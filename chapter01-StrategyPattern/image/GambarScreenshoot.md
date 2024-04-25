@@ -1,0 +1,2 @@
+//SS Output Tahap 1: Menggunakan Inheritance
+![Tahap1MenggunakanInheritance png](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/assets/146049473/acc1b16c-07d7-4399-98c7-9d9b515dc5ab)
