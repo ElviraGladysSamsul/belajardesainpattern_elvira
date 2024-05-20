@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d4aadb9-2db2-457f-a54a-976680f8485f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/Open-Close Principle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/analisa.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/image/BookSummaryService.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/image/GambarScreenshoot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/image/StrukturFolderOpenClosePrinciple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/image/TugasProductManagementSystem.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/src/BookSummaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/src/ProductManagementSystem.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../chapter05-Open-Close-Principle" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gRUfcYjAodu1kN6R4S4dC3xr4k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo (1).executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Mainn (1).executor": "Run",
+    "Application.Mainn (2).executor": "Run",
+    "Application.Mainn (3).executor": "Run",
+    "Application.Mainn (4).executor": "Run",
+    "Application.Mainn (5).executor": "Run",
+    "Application.Mainn.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SEMESTER 4/Praktikum Desain Pattern - Reza/DesignPattern",
+    "onboarding.tips.debug.path": "D:/SEMESTER 4/Praktikum Desain Pattern - Reza/DesignPattern/Open-Close Principle/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="Open-Close Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="Open-Close Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Open-Close Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Open-Close Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Open-Close Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d4aadb9-2db2-457f-a54a-976680f8485f" name="Changes" comment="" />
+      <created>1715659991654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715659991654</updated>
+    </task>
+    <servers />
+  </component>
+</project>
