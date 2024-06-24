@@ -3,5 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/chapter05-Open-Close-Principle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chapter06-SOLID-Principles/03-Liskov-Substitution-Principle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chapter06-SOLID-Principles/04-Interface-Segregation-Principle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chapter06-SOLID-Principles/05-Dependency-Inversion-Principle" vcs="Git" />
   </component>
 </project>
