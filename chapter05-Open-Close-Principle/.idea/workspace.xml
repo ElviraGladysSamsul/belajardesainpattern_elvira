@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d4aadb9-2db2-457f-a54a-976680f8485f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/Open-Close Principle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/analisa.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/image/BookSummaryService.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/image/GambarScreenshoot.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/image/StrukturFolderOpenClosePrinciple.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/image/TugasProductManagementSystem.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/src/BookSummaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter05-Open-Close-Principle/src/ProductManagementSystem.java" afterDir="false" />
-    </list>
+    <list default="true" id="0d4aadb9-2db2-457f-a54a-976680f8485f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../chapter05-Open-Close-Principle" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,9 +47,9 @@
     "Application.Mainn.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SEMESTER 4/Praktikum Desain Pattern - Reza/DesignPattern",
+    "last_opened_file_path": "D:/SEMESTER 4/Praktikum Desain Pattern - Reza/DesignPattern/chapter05-Open-Close-Principle",
     "onboarding.tips.debug.path": "D:/SEMESTER 4/Praktikum Desain Pattern - Reza/DesignPattern/Open-Close Principle/src/Main.java"
   }
 }]]></component>
