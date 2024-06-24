@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80e281ff-930a-4870-bfd9-19cde41d8bf7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analisa.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08-Dependency-Inversion-Principle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/BookManagement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/BookSummaryService.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/GambarScreenshoot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/StrukturFolderDependencyInversionPrinciple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/StrukturFolderOpenClosePrinciple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/TugasProductManagementSystem.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentExample.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2iE3Hz25Atlnqw7HMO6A2kxQXWG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookManagement (1).executor": "Run",
+    "Application.BookManagement.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PaymentExample (1).executor": "Run",
+    "Application.PaymentExample.executor": "Run",
+    "Application.UserGatewayExample.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SEMESTER 4/Praktikum Desain Pattern - Reza/DesignPattern/chapter06-SOLID-Principles/05-Dependency-Inversion-Principle",
+    "onboarding.tips.debug.path": "D:/SEMESTER 4/Praktikum Desain Pattern - Reza/DesignPattern/chapter08-Dependency-Inversion-Principle/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.PaymentExample (1)">
+    <configuration name="BookManagement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BookManagement" />
+      <module name="chapter08-Dependency-Inversion-Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BookManagement" />
+      <module name="chapter08-Dependency-Inversion-Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="chapter08-Dependency-Inversion-Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PaymentExample" />
+      <module name="chapter08-Dependency-Inversion-Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PaymentExample" />
+      <module name="chapter08-Dependency-Inversion-Principle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PaymentExample (1)" />
+        <item itemvalue="Application.BookManagement (1)" />
+        <item itemvalue="Application.BookManagement" />
+        <item itemvalue="Application.PaymentExample" />
+        <item itemvalue="Application.Main (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80e281ff-930a-4870-bfd9-19cde41d8bf7" name="Changes" comment="" />
+      <created>1719041828564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719041828564</updated>
+    </task>
+    <servers />
+  </component>
+</project>
